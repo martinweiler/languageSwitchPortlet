@@ -1,0 +1,18 @@
+ul.languageList {
+    list-style-type:none;
+	text-align:right;
+	vertical-align:top;
+}
+
+ul li.languageList-item {
+    display: inline;
+}
+
+table.languageList {
+	margin:20px;
+}
+
+td.languageList-td {
+	vertical-align:bottom;
+	text-align:center;
+}
