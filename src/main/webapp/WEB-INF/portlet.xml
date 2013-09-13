@@ -21,11 +21,6 @@ version="2.0"
           <title>LanguageSwitchPortlet</title>
           <keywords>Administration,Internationalization</keywords>
       </portlet-info>
-
-      <container-runtime-option>
-          <name>javax.portlet.renderHeaders</name>
-          <value>true</value>
-      </container-runtime-option>
       
       <portlet-preferences>
         <preference>
@@ -40,5 +35,11 @@ version="2.0"
           <read-only>false</read-only>
         </preference>
       </portlet-preferences>      
+      
+
+      <container-runtime-option>
+          <name>javax.portlet.renderHeaders</name>
+          <value>true</value>
+      </container-runtime-option>      
    </portlet>
 </portlet-app>
